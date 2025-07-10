@@ -96,10 +96,11 @@ ul li a .btn-primary:hover {
   justify-content: space-between;
   justify-items: center;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .wrapper-container {
-    margin: auto 0;
+  margin: auto 0;
 }
 
 .action-title {
@@ -135,4 +136,46 @@ ul li a .btn-primary:hover {
 
 .image-webflow img {
   border-radius: 48px;
+}
+
+/* users section */
+
+.wrapper-users {
+  width: 1140px;
+  height: 330px;
+  margin: 0 auto;
+  background-color: #4e47ff1a;
+  margin: 0 auto;
+  padding: 50px 80px;
+  margin-top: 100px;
+  border-radius: 24px;
+}
+
+.users-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #252432;
+  text-align: center;
+}
+
+.users-wrapper-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: last baseline;
+  margin-top: 40px;
+}
+
+.user-content {
+}
+
+.user-active {
+  font-size: 84px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+
+.users-desc {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
 }
