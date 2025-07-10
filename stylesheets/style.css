@@ -37,7 +37,7 @@ nav ul li {
 ul li a {
   text-decoration: none;
 }
- 
+
 .btn-primary {
   font-size: 16px;
   font-weight: 700;
@@ -50,28 +50,26 @@ ul li a {
   cursor: pointer;
 }
 
- ul li a .btn-primary:hover{
-   background-color: #02011b;
-   color: rgb(77, 236, 77);
+ul li a .btn-primary:hover {
+  background-color: #02011b;
+  color: rgb(77, 236, 77);
 }
-
 
 /* banner section start now  */
 
-.banner{
-text-align: center;
+.banner {
+  text-align: center;
 }
 
-.banner-title{
-font-size: 65px;
-font-weight: 700;
-color: #252432;
-margin-top: 140px;
-/* margin-bottom: 200px; */
+.banner-title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #252432;
+  margin-top: 140px;
+  /* margin-bottom: 200px; */
 }
 
-
-.btn-banner{
+.btn-banner {
   font-size: 16px;
   font-weight: 700;
   padding: 12px 36px;
@@ -84,7 +82,57 @@ margin-top: 140px;
   margin-top: 30px;
 }
 
-.btn-banner:hover{
-     background-color: #02011b;
-   color: rgb(77, 236, 77);
+.btn-banner:hover {
+  background-color: #02011b;
+  color: rgb(77, 236, 77);
+}
+
+/* action section */
+
+.wrapper {
+  width: 1140px;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.wrapper-container {
+    margin: auto 0;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.action-desc {
+  font-size: 24px;
+  color: #25243280;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.btn-action {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn-action:hover {
+  background-color: #02011b;
+  color: rgb(77, 236, 77);
+}
+
+.image-webflow img {
+  border-radius: 48px;
 }
