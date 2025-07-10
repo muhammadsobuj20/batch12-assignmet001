@@ -1,5 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  this is navigation section */
+
+.heading-section {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 1140px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px auto;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+ ul li a .btn-primary:hover{
+   background-color: #02011b;
+   color: rgb(77, 236, 77);
 }
