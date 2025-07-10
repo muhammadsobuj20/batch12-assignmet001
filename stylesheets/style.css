@@ -37,7 +37,7 @@ nav ul li {
 ul li a {
   text-decoration: none;
 }
-
+ 
 .btn-primary {
   font-size: 16px;
   font-weight: 700;
@@ -52,5 +52,39 @@ ul li a {
 
  ul li a .btn-primary:hover{
    background-color: #02011b;
+   color: rgb(77, 236, 77);
+}
+
+
+/* banner section start now  */
+
+.banner{
+text-align: center;
+}
+
+.banner-title{
+font-size: 65px;
+font-weight: 700;
+color: #252432;
+margin-top: 140px;
+/* margin-bottom: 200px; */
+}
+
+
+.btn-banner{
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn-banner:hover{
+     background-color: #02011b;
    color: rgb(77, 236, 77);
 }
