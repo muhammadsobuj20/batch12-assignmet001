@@ -165,9 +165,6 @@ ul li a .btn-primary:hover {
   margin-top: 40px;
 }
 
-.user-content {
-}
-
 .user-active {
   font-size: 84px;
   font-weight: 900;
@@ -175,6 +172,72 @@ ul li a .btn-primary:hover {
 }
 
 .users-desc {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+/* user rating section */
+
+.wrapper-rating-users {
+  width: 1140px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-color: #f2eded;
+}
+
+.rating-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper-rating-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+  margin: 20px; 
+}
+
+.icon-content {
+  border-radius: 14px;
+  box-shadow: 0 2px 4px 0px;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.users-rating-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+  letter-spacing: -2%;
+}
+
+.users-rating-desc {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-reveiwe {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.reveiwe-date {
   font-size: 20px;
   font-weight: 400;
   color: #00000080;
