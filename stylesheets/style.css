@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=My+Soul&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +68,7 @@ ul li a .btn-primary:hover {
   font-weight: 700;
   color: #252432;
   margin-top: 140px;
-  /* margin-bottom: 200px; */
+  font-family: "Raleway", sans-serif;
 }
 
 .btn-banner {
@@ -107,6 +109,7 @@ ul li a .btn-primary:hover {
   font-size: 42px;
   font-weight: 700;
   color: #252432;
+  font-family: "Raleway", sans-serif;
 }
 
 .action-desc {
@@ -138,7 +141,7 @@ ul li a .btn-primary:hover {
   border-radius: 48px;
 }
 
-/* users section */
+/*  action users section */
 
 .wrapper-users {
   width: 1140px;
@@ -149,6 +152,7 @@ ul li a .btn-primary:hover {
   padding: 50px 80px;
   margin-top: 100px;
   border-radius: 24px;
+  font-family: "Raleway", sans-serif;
 }
 
 .users-title {
@@ -156,6 +160,7 @@ ul li a .btn-primary:hover {
   font-weight: 700;
   color: #252432;
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .users-wrapper-container {
@@ -192,7 +197,9 @@ ul li a .btn-primary:hover {
   font-weight: 700;
   color: #252432;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 90px;
+  font-family: "Raleway", sans-serif;
+  padding: 30px;
 }
 
 .wrapper-rating-container {
@@ -201,7 +208,7 @@ ul li a .btn-primary:hover {
   align-items: center;
   gap: 25px;
   margin-top: 50px;
-  margin: 20px; 
+  margin: 20px;
 }
 
 .icon-content {
@@ -209,6 +216,8 @@ ul li a .btn-primary:hover {
   box-shadow: 0 2px 4px 0px;
   background-color: #ffffff;
   padding: 24px;
+  width: 330px;
+  height: 220px;
 }
 
 .users-rating-title {
@@ -224,17 +233,35 @@ ul li a .btn-primary:hover {
   color: #00000080;
 }
 
-.profile-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
+.revewer-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* margin: 0 auto; */
 }
 
+.revewer-content {
+  width: 320px;
+  height: 300px;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.revewer-name-date {
+  text-align: left;
+  margin-left: 20px;
+  padding: 5px;
+}
 .text-reveiwe {
   font-size: 20px;
   font-weight: 400;
-  color: #00000080;
+  color: #1d1919e0;
 }
 
 .reveiwe-date {
