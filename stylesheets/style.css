@@ -64,8 +64,9 @@ ul li a .btn-primary:hover {
   color: rgb(77, 236, 77);
 }
 
-/* banner section start now  */
 
+
+/* banner section start now  */
 .banner {
   text-align: center;
   width: 1440px;
@@ -98,7 +99,10 @@ ul li a .btn-primary:hover {
   color: rgb(77, 236, 77);
 }
 
+
+
  /* main section start */
+
 
 
    main{
@@ -108,8 +112,9 @@ ul li a .btn-primary:hover {
     margin-top: 0;
    }
 
-/* action section */
 
+
+/* action section */
 .wrapper {
   width: 1140px;
   height: 330px;
@@ -160,8 +165,10 @@ ul li a .btn-primary:hover {
   margin-top: 30px;
 }
 
-/*  action users section */
 
+
+
+/*  action users section */
 .wrapper-users {
   width: 1140px;
   height: 330px;
@@ -172,6 +179,7 @@ ul li a .btn-primary:hover {
   margin-top: 100px;
   border-radius: 24px;
   font-family: "Raleway", sans-serif;
+  margin-top: 120px;
 }
 
 .users-title {
@@ -186,7 +194,7 @@ ul li a .btn-primary:hover {
   display: flex;
   justify-content: space-around;
   align-items: last baseline;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .user-active {
@@ -201,8 +209,10 @@ ul li a .btn-primary:hover {
   color: #00000080;
 }
 
-/* user rating section */
 
+
+
+/* user rating section */
 .wrapper-rating-users {
   width: 1140px;
   height: 400px;
@@ -259,13 +269,11 @@ ul li a .btn-primary:hover {
   display: flex;
   justify-content: left;
   align-items: center;
-  /* margin: 0 auto; */
 }
 
 .revewer-content {
   width: 320px;
   height: 300px;
-  
 }
 
 .profile-img {
@@ -294,22 +302,67 @@ ul li a .btn-primary:hover {
   font-weight: 400;
   color: #00000080;
 }
- 
 
-.wrapper-focus{
-  text-align: center;
-  width: 1140px;
+
+ 
+/* this is ready to focus section */
+
+
+.wrapper-section{
+width: 1140px;
   height: 700px;
   margin: 0 auto;
-  
+  background-color: #FFFFFF;
+}
+.wrapper-focus{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.focus-title{
+font-weight: 700;
+font-size: 50px;
+font-family: "Raleway", sans-serif;
+margin-top: 20px;
+padding-top: 50px;
+}
+
+.focus-desc{
+  color: #00000080;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.webflow-img{
+  border-radius: 48px;
+  width: 840px;
+  height: 370px;
+  margin: 0 auto;
+  /* margin-top: 110px; */
+}
+
+.btn-webflow {
+font-size: 16px;
+  font-weight: 700;
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 15px 0 ;
+}
+
+.btn-webflow:hover {
+  background-color: #02011b;
+  color: rgb(77, 236, 77);
 }
 
 
 
-
-
 /* this is form section */
-
 .form-section{
  width: 1140px;
  height:640px;
